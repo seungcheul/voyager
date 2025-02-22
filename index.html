@@ -93,9 +93,9 @@
     <script>
         // 지난 3회차 당첨번호 (예시 데이터)
         const pastDraws = [
-            [5, 12, 23, 34, 41],
-            [7, 14, 22, 33, 45],
-            [3, 11, 25, 36, 42]
+            [5, 12, 23, 34, 41, 1],
+            [7, 14, 22, 33, 45, 1],
+            [3, 11, 25, 36, 42, 1]
         ];
 
         function initialize() {
@@ -142,7 +142,7 @@
             const excluded = getExcludedNumbers();
             const numbers = new Set();
             
-            while(numbers.size < 5) {
+            while(numbers.size < 6) {
                 const num = Math.floor(Math.random() * 45) + 1;
                 if(!excluded.has(num) && !numbers.has(num)) {
                     numbers.add(num);
