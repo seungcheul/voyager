@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.past-numbers {
+    color: #666;
+    margin-bottom: 15px;
+}
+.exclude-section {
+    margin: 15px 0;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.result {
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.manual {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+}
+.number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffeb3b;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+}
